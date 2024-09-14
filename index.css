@@ -1,0 +1,98 @@
+			body{
+				color:white;
+				margin: 0;
+				padding: 0;
+				position:relative;
+			}
+			
+			header, footer{
+				height:30px;
+			background-color:green;
+			text-align:center;
+			}
+			#square
+			{
+			left:0;
+			width:100px;
+			height:100px;
+			border: solid 4px white;
+			border-top-left-radius:10px;
+			border-bottom-right-radius:10px;
+			margin:10px;
+			}
+			.list *{
+				line-height:120%;
+			}
+			.content{
+				left:0;
+				min-height:100px;
+				max-width:90%;
+			min-width:90%;
+			box-sizing: content-box;
+			overflow:auto;
+			}
+			.header{
+			
+			font-size: 15px;
+			font-family: "Courier new";
+			
+			}
+			.footer{
+			font-size: 15px;
+			font-family: "Roboto";
+			top:80%;
+			}
+			.content h1{
+				font-size: 40px;
+			}
+			.ul > li
+			{
+				font-size: 16px;
+			}
+			li:nth-child(2)
+			{
+				color:aqua;
+				letter-spacing: 1em;
+			}
+			h2:first-child
+			{
+				word-spacing: 5px;
+			}
+			p:last-child
+			{
+				margin-bottom:0;
+				
+			}
+			a{
+				display:block;
+				text-align:center;
+			}
+			div{
+			position:relative;
+			left:30%;
+			font-family: sans-serif;
+			font-size: 18px;
+			width:40%;
+			background-color:blue;
+			}
+			div:not(table){
+				
+				padding-left:10px;
+			}
+			img{
+				float:right;
+				margin:10px;
+			}
+			table{
+			border: solid 1px silver;
+			margin-right: 10px;
+			}
+            td{
+                width: 3em; 
+                height: 2em; 
+                border: solid 1px silver; 
+				vertical-align:bottom;
+                text-align:center;
+            }
+			a:link{color:red; text-decoration:underline}
+			a:visited{color:red; text-decoration:underline}
